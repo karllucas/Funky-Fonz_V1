@@ -11,18 +11,18 @@ export default class Navbar extends Component {
     render() {
         return (
             <NavWrapper className="navbar navbar-custom navbar-expand-sm navbar-dark px-sm-5">
-                <nav className="navbar navbar-expand-lg w-100 d-flex justify-content-between">
-                <div className="container-fluid">
-                    <Link to='/' className="navbar-brand col-6">
-                        <img src={logo} alt="Funky Phones" className="brand-logo navbar-brand"/>
-                        <img src={mobileLogo} alt="Funky Phones" className="mobile-brand-logo navbar-brand"/>
+                <nav className="navbar navbar-expand-lg w-100">
+                <div className="container">
+                    <Link to='/' className="navbar-brand col-8">
+                        <img src={logo} alt="Funky Phones" className="brand-logo navbar-brand "/>
+                        <img src={mobileLogo} alt="Funky Phones" className="mobile-brand-logo navbar-brand mobile-link-margin"/>
                     </Link>
 
                     <button className="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse mx-6" id="navbarNavAltMarkup">
-                    <div className="navbar-nav mx-auto">
+                    <div className="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
+                    <div className="navbar-nav">
                         <Link to="/cart" className="nav-link my-auto" >
                             <ButtonContainer>
                                 <span className="mr-2">
@@ -32,13 +32,13 @@ export default class Navbar extends Component {
                                 my cart
                             </ButtonContainer>
                         </Link>
-                        <Link to="/" className="nav-link active my-auto" aria-current="page">
+                        <Link to="/" className="nav-link active my-auto mobile-link-margin" aria-current="page">
                             Products
                         </Link>
-                        <a className="nav-link my-auto" href="/">
+                        <a className="nav-link my-auto mobile-link-margin" href="/">
                             Pricing
                         </a>
-                        <a className="nav-link disabled my-auto" href="/">
+                        <a className="nav-link disabled my-auto mobile-link-margin" href="/">
                             Disabled
                         </a>
                     </div>
