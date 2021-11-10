@@ -12,10 +12,10 @@ export default class Navbar extends Component {
         return (
             <NavWrapper className="navbar navbar-custom navbar-expand-sm navbar-dark px-sm-5">
                 <nav className="navbar navbar-expand-lg w-100">
-                <div className="container">
-                    <Link to='/' className="navbar-brand col-8">
+                <div className="container medium-view">
+                    <Link to='/' className="navbar-brand col-md-auto col-8">
                         <img src={logo} alt="Funky Phones" className="brand-logo navbar-brand "/>
-                        <img src={mobileLogo} alt="Funky Phones" className="mobile-brand-logo navbar-brand mobile-link-margin"/>
+                        <img src={mobileLogo} alt="Funky Phones" className="col-md-auto mobile-brand-logo navbar-brand mobile-link-margin"/>
                     </Link>
 
                     <button className="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@ export default class Navbar extends Component {
                     </button>
                     <div className="collapse navbar-collapse justify-content-lg-end" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <Link to="/cart" className="nav-link my-auto" >
+                        <Link to="/cart" className="nav-link my-auto col-md-auto" >
                             <ButtonContainer>
                                 <span className="mr-2">
                                 <i className="fas fa-cart-plus" />

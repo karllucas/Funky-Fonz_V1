@@ -4,6 +4,7 @@
   --mainWhite:#f3f3f3;
   --mainDark:rgba(0,0,0,0.75);
   --mainGreen:#ccf381;
+  --secDark:rgba(0,0,0,0.30);
   --darkGreen: #b0ec3b;
 }
 body {
@@ -59,9 +60,29 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+@media screen and (max-width : 768px){
+  .brand-logo {
+    display: none;
+  }
+  .medium-view {
+    display: flex;
+    flex-direction: row;
+  }
+  .mobile-brand-logo {
+    display: block;
+  }
+  .mobile-link-margin {
+    margin: 0 0 0 5%;
+  }
+}
+
 @media screen and (max-width : 425px){
   .brand-logo {
     display: none;
+  }
+  .medium-view {
+    display: flex;
+    flex-direction: row;
   }
   .mobile-brand-logo {
     display: block;

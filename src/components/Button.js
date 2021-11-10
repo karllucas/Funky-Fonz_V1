@@ -8,14 +8,14 @@ background : ${ props => props.cart ? "var(--mainGreen)" : "var(--mainBlue)"};
 border:1px solid;
 border-color: ${ props => props.cart ? "var(--mainGreen)" : "var(--mainGreen)"};
 border-radius:25px;
-padding:0.3rem 0.8rem;
+padding:0.2rem 0.55rem;
 cursor:pointer;
-margin:0.2rem 0.5rem 0;
+margin:0.2rem 0 0;
 transition: all 0.5s ease-in-out;
 &:hover {
     border:1px solid;
-    border-color: ${ props => props.cart ? "var(--mainGreen)" : "var(--mainWhite)"};
-    background:${ props => props.cart ? "var(--mainBlue)" : "#000000"};
+    border-color: ${ props => props.cart ? "var(--mainGreen)" : "var(--secDark)"};
+    background:${ props => props.cart ? "var(--mainBlue)" : "var(--mainDark)"};
     color:${ props => props.cart ? "var(--mainGreen)" : "var(--mainWhite)"};
 }
 &:focus {
