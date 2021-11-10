@@ -38,7 +38,7 @@ export default class Navbar extends Component {
                         <a className="nav-link my-auto" href="/">
                             Pricing
                         </a>
-                        <a className="nav-link disabled my-auto">
+                        <a className="nav-link disabled my-auto" href="/">
                             Disabled
                         </a>
                     </div>
