@@ -22,12 +22,12 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
  }
  .text-green {
-   color: var(--lightBlue);
+   color: var(--mainGreen);
  }
  .text-blue {
    color: var(--mainBlue);
  }
- .text-bright {
+ .text-bright-blue {
    color: var(--lightBlue);
  }
 
