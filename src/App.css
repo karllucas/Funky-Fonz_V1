@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+:root {
+  --mainBlue:#4831D4;
+  --lightBlue:#7867df;
+  --mainWhite:#f3f3f3;
+  --mainDark:rgba(0,0,0,0.75);
+  --mainGreen:#ccf381;
+  --darkGreen: #b0ec3b;
+}
+body {
+  font-family: 'Roboto Condensed', sans-serif  !important;
+  font-weight: 300 ;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Abril Fatface', cursive !important;
+ }
+ .text-title{
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+ }
+ .text-green {
+   color: var(--lightBlue);
+ }
+ .text-blue {
+   color: var(--mainBlue);
+ }
+ .text-bright {
+   color: var(--lightBlue);
+ }
+
+/* CartItem Button Style */
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-black:hover {
+  background: var(--mainDark)!important;
+  color: var(--mainWhite) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--darkGreen);
+}
+
+.brand-logo {
+  display: block;
+}
+
+.mobile-brand-logo {
+  display: none;
+}
+
+@media screen and (max-width : 425px){
+  .brand-logo {
+    display: none;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .mobile-brand-logo {
+    display: block;
   }
 }
