@@ -19,7 +19,7 @@ export default class Details extends Component {
                         inCart, 
                     } = value.detailProduct;
                     return (
-                        <div className="container col-12 bg-white spacing-details">
+                        <div className="container mx-auto py-5 bg-white">
                             {/* title */}
                             <div className="row p-lg-5">
                                 <div className="col-10 mx-auto text-center text-slantd text-blue my-5">
@@ -62,11 +62,12 @@ export default class Details extends Component {
                                     </div>
                                     {/* buttons */}
                                     <div className="row flex-small mx-auto mx-lg-5 justify-content-center">
-                                    <Link to="/" className="p-2 mx-auto p-lg-0 col-lg-5 col-lg-6">
-                                        <ButtonContainer>Back To Shop</ButtonContainer>
+                                    <Link to="/" className="p-2 mx-auto col-12 p-lg-0 col col-lg-5">
+                                        <ButtonContainer className="col-12 ">Go To Shop</ButtonContainer>
                                     </Link>
-                                    <span className="p-2 p-lg-0 mx-auto button-padding col-lg-5">
+                                    <span className="p-2 p-lg-0 mx-auto button-padding col-12 col-lg-5">
                                         <ButtonContainer 
+                                        className="col-12"
                                         cart
                                         disabled={ inCart ? true : false }
                                         onClick={()=> {
