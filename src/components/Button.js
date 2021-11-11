@@ -8,7 +8,7 @@ background : ${ props => props.cart ? "var(--mainGreen)" : "var(--mainBlue)"};
 border:1px solid;
 border-color: ${ props => props.cart ? "var(--mainGreen)" : "var(--mainBlue)"};
 border-radius:25px;
-padding:0.2rem 1rem;
+padding:0.5rem 1rem;
 cursor:pointer;
 margin:0 auto;
 transition: all 0.5s ease-in-out;

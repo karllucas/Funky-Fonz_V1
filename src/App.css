@@ -14,19 +14,19 @@
   overflow: hidden;
 }
 body {
-  font-family: 'Permanent Marker' sans-serif !important;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
   font-weight: 300 ;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 p {
-  font-family: 'Permanent Marker' sans-serif !important;;
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
 }
 h1, h2, h3, h4 {
   font-family: 'Dongle', sans-serif !important;
  }
  h5, h6 {
-  font-family: 'Permanent Marker' serif !important;
+  font-family: 'Merienda' serif !important;
  }
  /* General Theme Styles End*/
 
@@ -36,7 +36,7 @@ h1, h2, h3, h4 {
    padding:0 0 0 5.3rem;
  }
  .text-title{
-  font-family: 'Permanent Marker' serif;
+  font-family: 'Dongle' sans-serif;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
  }
