@@ -19,7 +19,7 @@ export default class Details extends Component {
                         inCart, 
                     } = value.detailProduct;
                     return (
-                        <div className="container bg-white spacing-details">
+                        <div className="container col-12 bg-white spacing-details">
                             {/* title */}
                             <div className="row p-lg-5">
                                 <div className="col-10 mx-auto text-center text-slantd text-blue my-5">
