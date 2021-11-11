@@ -33,7 +33,7 @@ h1, h2, h3, h4 {
  /* Typogrophy Styles Start */
  .letter-spacing {
    letter-spacing: 0.02px;
-   padding:0 0 0 3.5rem;
+   padding:0 0 0 1rem;
  }
  .text-title{
   font-family: 'Dongle' sans-serif;
