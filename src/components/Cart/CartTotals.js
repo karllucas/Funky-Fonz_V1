@@ -13,7 +13,7 @@ export default function CartTotals({value}) {
         <React.Fragment>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="mx-auto col-10 my-5 pb-5 ml-sm-5 ml-md-auto col-sm-8 text-capitalize text-center">
+                    <div className="card-body mx-auto col-10 my-5 pb-5 ml-sm-5 ml-md-auto col-sm-8 text-capitalize text-center">
                         <Link to="/">
                             <button 
                                 className="btn btn-outline-danger text-uppercase mb-3 px-5" 
@@ -28,7 +28,7 @@ export default function CartTotals({value}) {
                                 subtotal :
                             </span>
                             <strong>
-                                KES {cartSubTotal}
+                                <small>KES {cartSubTotal}</small>
                             </strong>
                         </h5>
                         <h5>
@@ -36,7 +36,7 @@ export default function CartTotals({value}) {
                                 tax :
                             </span>
                             <strong>
-                                KES {cartTax}
+                                <small>KES {cartTax}</small>
                             </strong>
                         </h5>
                         <h5>
@@ -44,7 +44,7 @@ export default function CartTotals({value}) {
                                 total :
                             </span>
                             <strong>
-                                KES {cartTotal}
+                                <small>KES {cartTotal}</small> 
                             </strong>
                         </h5>
                     </div>  
