@@ -107,12 +107,6 @@ h1, h2, h3, h4 {
   }
   .letter-spacing {
     letter-spacing: 0.02px;
-    padding:0 0 0 4.8rem;
-  }
-}
-
-@media screen and (max-width : 1024px){
-  .group-padding {
     margin: 0 0 0 2.4rem;
   }
   .small-padding {
@@ -120,7 +114,7 @@ h1, h2, h3, h4 {
   }
   .letter-spacing {
     letter-spacing: 0.02px;
-    padding:0 0 0 1rem;
+    padding:0 0 0 2.2rem;
   }
 }
 
@@ -165,7 +159,7 @@ h1, h2, h3, h4 {
     margin: 0;
   }
   .margin-left-small {
-    margin: 0 0 0 10%;
+    margin: 0 0 0 7%;
   }
   .medium-view {
     display: flex;
