@@ -13,7 +13,7 @@ export default function CartTotals({value}) {
         <React.Fragment>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="mx-auto col-10 mt-2 ml-sm-5 ml-md-auto col-sm-8 text-capitalize text-center">
+                    <div className="mx-auto col-10 my-5 pb-5 ml-sm-5 ml-md-auto col-sm-8 text-capitalize text-center">
                         <Link to="/">
                             <button 
                                 className="btn btn-outline-danger text-uppercase mb-3 px-5" 
