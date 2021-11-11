@@ -27,12 +27,12 @@ export default function CartItem({item,value}) {
             /> 
         </div>
         <div className="col-10 mx-auto col-lg-2 my-auto">
-            <span className="d-lg-none">product : </span>
-            {title}
+            <span className="d-lg-none"><small>product : </small></span>
+            <small>{title}</small>
         </div>
         <div className="col-10 mx-auto col-lg-2 my-auto">
-            <span className="d-lg-none">price : </span>
-            {price}
+            <span className="d-lg-none"><small>price : </small></span>
+            <small>{price}</small>
         </div>
         <div className="col-10 mx-auto col-lg-2 my-auto py-3">
             <div className="d-flex justify-content-center">

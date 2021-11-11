@@ -30,16 +30,24 @@ export default class Modal extends Component {
                                             <img src={img} alt="product" className="img-fluid" />
                                             <h5>{title}</h5>
                                             <h5 className="text-muted">price : KES {price}</h5>
-                                            <Link to="/" className="mx-1">
-                                                <ButtonContainer onClick={ () => closeModal() }>
-                                                    Shop
+                                            <div className="card-header">
+                                            <Link to="/">
+                                                <ButtonContainer className="m-1 col-12" onClick={ () => closeModal() }>
+                                                <span className="hide-view-small">Shop</span>
+                                                    <span className="px-1">
+                                                    <i className="fas fa-cart-plus" />
+                                                    </span>
                                                 </ButtonContainer>
                                             </Link>
-                                            <Link to="/cart" className="mx-1">
-                                                <ButtonContainer onClick={ () => closeModal() }>
-                                                    Go to Cart
+                                            <Link to="/cart">
+                                                <ButtonContainer className="m-1 col-12 overflow-hide" onClick={ () => closeModal() }>
+                                                    <span className="hide-view-small">Cart</span> 
+                                                    <span className="px-2">
+                                                    <i className="fa fa-arrow-right" />
+                                                    </span>
                                                 </ButtonContainer>
                                             </Link>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

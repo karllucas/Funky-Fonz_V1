@@ -6,7 +6,8 @@
   --mainDark:rgba(0,0,0,0.75);
   --mainGreen:#ccf381;
   --secDark:rgba(0,0,0,0.30);
-  --darkGreen: #b0ec3b;
+  --secGreen: #9ED435;
+  --darkGreen: #465E17;
   --mainOrange: rgba(255, 215, 0, 0.68);
 }
 #root {
@@ -42,6 +43,9 @@ h1, h2, h3, h4 {
  .text-green {
    color: var(--mainGreen);
  }
+ .text-dark-green {
+  color: var(--darkGreen);
+}
  .text-blue {
    color: var(--mainBlue);
  }
@@ -74,7 +78,7 @@ h1, h2, h3, h4 {
 .cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
-  color: var(--darkGreen);
+  color: var(--secGreen);
 }
 /* CartItem Button Style End*/
 
@@ -85,6 +89,10 @@ h1, h2, h3, h4 {
 
 .mobile-brand-logo {
   display: none;
+}
+
+.overflow-hide {
+  overflow: hidden;
 }
 
 /* ViewPort Styles Start */
@@ -125,6 +133,15 @@ h1, h2, h3, h4 {
   }
   .mobile-link-margin {
     margin: 0 0 0 5%;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .hide-view-small {
+    float: left;
+    width: 33.33%;
+    display: none !important;
+    margin: 0 1px !important;
   }
 }
 /* ViewPort Styles End */

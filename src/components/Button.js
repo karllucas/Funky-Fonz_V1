@@ -14,8 +14,8 @@ margin:0 auto;
 transition: all 0.5s ease-in-out;
 &:hover {
     border:1px solid;
-    border-color: ${ props => props.cart ? "var(--mainDark)" : "var(--mainOrange)"};
-    background:${ props => props.cart ? "var(--mainDark)" : "var(--mainOrange)"};
+    border-color: ${ props => props.cart ? "var(--mainDark)" : "var(--secDark)"};
+    background:${ props => props.cart ? "var(--mainDark)" : "var(--mainWhite)"};
     color:${ props => props.cart ? "var(--mainWhite)" : "var(--mainDark)"};
 }
 &:focus {
