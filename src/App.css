@@ -49,6 +49,12 @@ h1, h2, h3, h4 {
  }
  /* Typogrophy Styles End */
 
+ /* Details Page Button (Add To Cart) Styles Start*/
+ .button-padding {
+   padding: 0 0 0 10px;
+ }
+ /* Details Page Button (Add To Cart) Styles End*/
+
 /* CartItem Button Style Start*/
 .btn-black {
   background: transparent;
@@ -85,6 +91,10 @@ h1, h2, h3, h4 {
   .brand-logo {
     display: none;
   }
+  .flex-small {
+    display: flex;
+    flex-direction: row; 
+  }
   .medium-view {
     display: flex;
     flex-direction: row;
@@ -100,6 +110,10 @@ h1, h2, h3, h4 {
 @media screen and (max-width : 425px){
   .brand-logo {
     display: none;
+  }
+  .flex-small {
+    display: flex;
+    flex-direction: row; 
   }
   .medium-view {
     display: flex;

@@ -19,9 +19,9 @@ export default class Details extends Component {
                         inCart, 
                     } = value.detailProduct;
                     return (
-                        <div className="container py-5">
+                        <div className="container p-5">
                             {/* title */}
-                            <div className="row">
+                            <div className="row p-lg-5">
                                 <div className="col-10 mx-auto text-center text-slantd text-blue my-5">
                                     <h1>{title}</h1>
                                 </div>
@@ -36,38 +36,43 @@ export default class Details extends Component {
                                 {/* product image end */}
                                 {/* product text */}
                                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalize">
-                                    <h2>model : {title}</h2>
-                                    <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
-                                        made by : <span className="text-uppercase">
-                                            {company}
-                                        </span>
-                                    </h4>
-                                    <h4 className="text-blue">
-                                        <strong>
-                                            price : <span>$</span>
-                                            {price}
-                                        </strong>
-                                    </h4>
-                                    <p className="text-capitalize font-weight-bold mt-3 mb-0">
-                                        some info about the product : 
-                                    </p>
-                                    <p className="text-muted lead">
-                                        {info}
-                                    </p>
+                                    <div className="col-12">
+                                        <h2>model : {title}</h2>
+                                        <h4 className="text-title text-uppercase text-muted mt-3 mb-2">
+                                            made by : <span className="text-uppercase">
+                                                {company}
+                                            </span>
+                                        </h4>
+                                        <h4 className="text-blue">
+                                            <strong>
+                                                price : <span>$</span>
+                                                {price}
+                                            </strong>
+                                        </h4>
+                                        <p className="text-capitalize font-weight-bold mt-3 mb-0">
+                                            some info about the product : 
+                                        </p>
+                                        <p className="text-muted lead">
+                                            {info}
+                                        </p>
+                                    </div>
                                     {/* buttons */}
-                                    <div>
-                                    <Link to="/">
-                                        <ButtonContainer>Back To Products</ButtonContainer>
+                                    <div className="row flex-small mx-auto mx-lg-5 justify-content-center">
+                                    <Link to="/" className="p-2 mx-auto p-lg-0 col-lg-5 col-lg-6">
+                                        <ButtonContainer>Back To Shop</ButtonContainer>
                                     </Link>
-                                    <ButtonContainer cart
-                                    disabled={ inCart ? true : false }
-                                    onClick={()=> {
-                                        value.handleAddToCart(id);
-                                        value.openModal(id);
-                                    }}
-                                    >
-                                        { inCart ? "In Cart" : "Add To Cart" }
-                                    </ButtonContainer>
+                                    <span className="p-2 p-lg-0 mx-auto button-padding col-lg-5">
+                                        <ButtonContainer 
+                                        cart
+                                        disabled={ inCart ? true : false }
+                                        onClick={()=> {
+                                            value.handleAddToCart(id);
+                                            value.openModal(id);
+                                        }}
+                                        >
+                                            { inCart ? "In Cart" : "Add To Cart" }
+                                        </ButtonContainer>
+                                    </span>
                                     </div>
                                 </div>
                                 {/* product text */}
