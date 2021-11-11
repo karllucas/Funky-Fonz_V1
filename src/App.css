@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
   margin: 0 0 0 1.4rem;
  }
  .spacing-details {
-  margin: 10%;
+  margin: 14%;
  }
 
 /* CartItem Button Style Start*/
@@ -180,6 +180,9 @@ h1, h2, h3, h4 {
   .small-padding {
     padding: 48% 1%;
   }
+  .spacing-details {
+    margin: 16%;
+   }
 }
 
 @media screen and (max-width: 280px) {
