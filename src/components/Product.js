@@ -57,15 +57,14 @@ export default class Product extends Component {
                         )}
                     </ProductConsumer>
                     {/* Card Footer */}
-                    <div className="card-footer d-flex justfy-content-between">
-                        <p className="align-self-center mb-0 mx-auto">
+                    <div className="card-footer d-flex justfy-content-even">
+                        <p className="align-self-center h6 mb-0 mx-auto">
                             {title}
                         </p>
-                        <h5 className="text-blue font-italic mb-0">
-                            <span className="text-black mx-auto">KES</span>
-                            {' '}
+                        <h6 className="text-blue font-italic mb-0">
+                            <span className="text-black mx-auto">kes</span>
                             {price}
-                        </h5>
+                        </h6>
                     </div>
                     {/* Card Footer End */}
                 </div>
