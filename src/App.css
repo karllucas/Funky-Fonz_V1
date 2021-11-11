@@ -65,7 +65,7 @@ h1, h2, h3, h4 {
   margin: 0 0 0 1.4rem;
  }
  .spacing-details {
-  margin: 0 14% 14%;
+  margin: 0 14% 18%;
  }
 
 /* CartItem Button Style Start*/
@@ -115,6 +115,9 @@ h1, h2, h3, h4 {
   .small-padding {
     padding: 38% 1%;
   }
+  .spacing-details {
+    margin: 0;
+   }
 }
 
 @media screen and (max-width: 1024px) {
@@ -148,6 +151,9 @@ h1, h2, h3, h4 {
   .small-padding {
     padding: 30% 1%;
   }
+  .spacing-details {
+    margin: 0;
+   }
 }
 
 @media screen and (max-width : 425px){
@@ -181,7 +187,7 @@ h1, h2, h3, h4 {
     padding: 48% 1%;
   }
   .spacing-details {
-    margin: 0 0 20%;
+    margin: 0;
    }
 }
 
@@ -202,7 +208,7 @@ h1, h2, h3, h4 {
     margin: 0 1px !important;
   }
   .spacing-details {
-    margin: 0 0 20%;
+    margin: 0;
    }
 }
 /* ViewPort Styles End */
