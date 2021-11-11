@@ -110,7 +110,7 @@ h1, h2, h3, h4 {
   }
   .letter-spacing {
     letter-spacing: 0.02px;
-    margin: 0 0 0 2.4rem;
+    margin: 0 0 0 3rem;
   }
   .small-padding {
     padding: 38% 1%;
@@ -165,7 +165,7 @@ h1, h2, h3, h4 {
     margin: 0;
   }
   .margin-left-small {
-    margin: 0 0 0 7%;
+    margin: 0 0 0 6%;
   }
   .medium-view {
     display: flex;
@@ -197,6 +197,9 @@ h1, h2, h3, h4 {
     width: 33.33%;
     display: none !important;
     margin: 0 1px !important;
+  }
+  .margin-left-small {
+    margin: 0 15% 0 0;
   }
 }
 /* ViewPort Styles End */
