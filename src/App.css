@@ -60,6 +60,11 @@ h1, h2, h3, h4 {
  }
  /* Details Page Button (Add To Cart) Styles End*/
 
+ /* Card Styles Start */
+ .group-padding {
+  margin: 0 0 0 4.3rem;
+ }
+
 /* CartItem Button Style Start*/
 .btn-black {
   background: transparent;
@@ -96,6 +101,21 @@ h1, h2, h3, h4 {
 }
 
 /* ViewPort Styles Start */
+@media screen and (max-width : 2560px){
+  .larger-view {
+    margin: 12%;
+  }
+}
+
+@media screen and (max-width : 1024px){
+  .group-padding {
+    margin: 0 0 0 2.4rem;
+  }
+  .small-padding {
+    padding: 38% 1%;
+  }
+}
+
 @media screen and (max-width : 768px){
   .brand-logo {
     display: none;
@@ -103,6 +123,9 @@ h1, h2, h3, h4 {
   .flex-small {
     display: flex;
     flex-direction: row; 
+  }
+  .group-padding {
+    margin: 0 0 0 6.5rem;
   }
   .medium-view {
     display: flex;
@@ -113,6 +136,9 @@ h1, h2, h3, h4 {
   }
   .mobile-link-margin {
     margin: 0 0 0 5%;
+  }
+  .small-padding {
+    padding: 30% 1%;
   }
 }
 
@@ -124,6 +150,15 @@ h1, h2, h3, h4 {
     display: flex;
     flex-direction: row; 
   }
+  .group-padding {
+    margin: 0;
+   }
+  .larger-view {
+    margin: 0;
+  }
+  .margin-left-small {
+    margin: 0 0 0 10%;
+  }
   .medium-view {
     display: flex;
     flex-direction: row;
@@ -134,9 +169,21 @@ h1, h2, h3, h4 {
   .mobile-link-margin {
     margin: 0 0 0 5%;
   }
+  .small-padding {
+    padding: 48% 1%;
+  }
 }
 
 @media screen and (max-width: 280px) {
+  .group-padding {
+    margin: 0;
+   }
+   .larger-view {
+    margin: 10% 0;
+  }
+  .small-padding {
+    padding: 25% 1%;
+  }
   .hide-view-small {
     float: left;
     width: 33.33%;

@@ -1,7 +1,7 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel 32 GB - Black",
+    title: "Google Pixel",
     img: "img/product-1.png",
     price: 65500,
     company: "GOOGLE",
@@ -13,8 +13,8 @@ export const storeProducts = [
   },
   {
     id: 2,
-    title: "Samsung Galaxy S7 Edge 32 GB",
-    img: "img/product-2.png",
+    title: "Samsung S7",
+    img: "img/samsung-galaxy-s7.jpg",
     price: 32000,
     company: "SAMSUNG",
     info:
@@ -25,7 +25,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "HTC 10 32 GB - Black",
+    title: "HTC 10",
     img: "img/product-3.png",
     price: 30000,
     company: "HTC",
@@ -37,7 +37,7 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "HTC 10 32 GB - White",
+    title: "HTC 10",
     img: "img/product-4.png",
     price: 30000,
     company: "HTC",
@@ -49,7 +49,7 @@ export const storeProducts = [
   },
   {
     id: 5,
-    title: "HTC Desire 628 32GB",
+    title: "HTC Desire 628",
     img: "img/product-5.png",
     price: 16000,
     company: "HTC",
@@ -61,7 +61,7 @@ export const storeProducts = [
   },
   {
     id: 6,
-    title: "Apple iPhone SE (2020) 64GB",
+    title: "iPhone SE",
     img: "img/product-6.png",
     price: 50000,
     company: "APPLE",
@@ -73,7 +73,7 @@ export const storeProducts = [
   },
   {
     id: 7,
-    title: "Apple iPhone 7 32GB",
+    title: "iPhone 7",
     img: "img/product-7.png",
     price: 30000,
     company: "APPLE",
@@ -85,7 +85,7 @@ export const storeProducts = [
   },
   {
     id: 8,
-    title: "Smashed Iphone (Prank phone)",
+    title: "Smashed iPhone",
     img: "img/product-8.png",
     price: 2000,
     company: "APPLE",
@@ -100,7 +100,7 @@ export const storeProducts = [
 export const detailProduct = [
   {
     id: 1,
-    title: "Google Pixel 32 GB - Black",
+    title: "Google Pixel",
     img: "img/product-1.png",
     price: 65500,
     company: "GOOGLE",
