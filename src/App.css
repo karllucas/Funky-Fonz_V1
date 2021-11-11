@@ -105,6 +105,10 @@ h1, h2, h3, h4 {
   .larger-view {
     margin: 12%;
   }
+  .letter-spacing {
+    letter-spacing: 0.02px;
+    padding:0 0 0 3.8rem;
+  }
 }
 
 @media screen and (max-width : 1024px){
@@ -113,6 +117,10 @@ h1, h2, h3, h4 {
   }
   .small-padding {
     padding: 38% 1%;
+  }
+  .letter-spacing {
+    letter-spacing: 0.02px;
+    padding:0 0 0 2.2rem;
   }
 }
 
