@@ -180,6 +180,9 @@ h1, h2, h3, h4 {
   .small-padding {
     padding: 48% 1%;
   }
+  .spacing-details {
+    margin: 0 5% 17%;
+   }
 }
 
 @media screen and (max-width: 280px) {
@@ -198,5 +201,8 @@ h1, h2, h3, h4 {
     display: none !important;
     margin: 0 1px !important;
   }
+  .spacing-details {
+    margin: 0 14% 17%;
+   }
 }
 /* ViewPort Styles End */
