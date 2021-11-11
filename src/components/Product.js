@@ -57,14 +57,20 @@ export default class Product extends Component {
                         )}
                     </ProductConsumer>
                     {/* Card Footer */}
-                    <div className="card-footer d-flex justfy-content-even">
-                        <p className="align-self-center h6 mb-0 mx-auto">
-                            {title}
+                    <div className="card-body card-footer d-flex justfy-content-end font-weight-bold">
+                        <p className="align-self-center card-text h6 m-0 text-capitalize">
+                            <small>
+                                {title}
+                            </small>
                         </p>
-                        <h6 className="text-blue font-italic mb-0">
-                            <span className="text-black mx-auto">kes</span>
-                            {price}
-                        </h6>
+                        <div className="card-body">
+                            <h6 className="list-group list-group-flush font-italic letter-spacing mb-0 py-auto text-blue">
+                                <strong>
+                                    <span className="p-1 text-black">kes</span>
+                                    {price}
+                                </strong>
+                            </h6> 
+                        </div>
                     </div>
                     {/* Card Footer End */}
                 </div>

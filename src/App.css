@@ -1,3 +1,4 @@
+/* General Theme Styles Start*/
 :root {
   --mainBlue:#4831D4;
   --lightBlue:#7867df;
@@ -11,16 +12,29 @@
   overflow: hidden;
 }
 body {
-  font-family: 'Roboto Condensed', sans-serif  !important;
+  font-family: 'Permanent Marker', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  !important;
   font-weight: 300 ;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Abril Fatface', cursive !important;
+p {
+  font-family: 'Permanent Marker' cursive!important;;
+}
+h1, h2, h3, h4 {
+  font-family: 'Dongle', cursive !important;
+ }
+ h5, h6 {
+  font-family: 'Merienda', cursive !important;
+ }
+ /* General Theme Styles End*/
+
+ /* Typogrophy Styles Start */
+ .letter-spacing {
+   letter-spacing: 0.02px;
+   padding:0 0 0 5.3rem;
  }
  .text-title{
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Dongle';
   letter-spacing: 0.3rem;
   text-transform: uppercase;
  }
@@ -33,8 +47,9 @@ h1, h2, h3, h4, h5, h6 {
  .text-bright-blue {
    color: var(--lightBlue);
  }
+ /* Typogrophy Styles End */
 
-/* CartItem Button Style */
+/* CartItem Button Style Start*/
 .btn-black {
   background: transparent;
   text-transform: capitalize;
@@ -54,7 +69,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.2rem;
   color: var(--darkGreen);
 }
+/* CartItem Button Style End*/
 
+/* Logo Styles Start (Desktop, Tab and Mobile) */
 .brand-logo {
   display: block;
 }
@@ -63,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+/* ViewPort Styles Start */
 @media screen and (max-width : 768px){
   .brand-logo {
     display: none;
@@ -94,3 +112,4 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0 5%;
   }
 }
+/* ViewPort Styles End */
