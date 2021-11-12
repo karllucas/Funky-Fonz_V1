@@ -66,7 +66,7 @@ export default class Product extends Component {
                         <div className="card-body margin-left-small">
                             <h6 className="col-12 list-group list-group-flush letter-spacing mb-0 py-auto text-blue">
                                 <strong>
-                                    <span className="p-1 text-black">kes</span>
+                                    <span className="p-1 text-black">$</span>
                                     {price}
                                 </strong>
                             </h6> 

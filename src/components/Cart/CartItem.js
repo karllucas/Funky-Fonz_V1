@@ -62,7 +62,7 @@ export default function CartItem({item,value}) {
             </div>
         </div>
         <div className="col-10 mx-auto col-lg-2 my-lg-1 mb-sm-5 py-3">
-            <strong>item total: KES {total}</strong>
+            <strong>item total: $ {total}</strong>
         </div>
       </div>
     );

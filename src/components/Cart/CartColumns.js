@@ -16,7 +16,7 @@ export default function CartColumns() {
               </div>
               <div className="col-10 mx-auto col-lg-2">
                   <p className="h6 text-uppercase">
-                      price
+                      price in $
                   </p>
               </div>
               <div className="col-10 mx-auto col-lg-2">
