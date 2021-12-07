@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import PayPalButton from './PayPalButton';
+import Flutterwave from './Flutterwave';
+// import PayPalButton from './PayPalButton';
 
 export default function CartTotals({ value, history }) {
     const {
@@ -48,11 +49,12 @@ export default function CartTotals({ value, history }) {
                                 <small>$ {cartTotal}</small> 
                             </strong>
                         </h5>
-                        <PayPalButton 
+                        {/* <PayPalButton 
                             total={cartTotal} 
                             clearCart={clearCart}
                             history={history}
-                        />
+                        /> */}
+                        <Flutterwave />
                     </div>  
                 </div> 
             </div>

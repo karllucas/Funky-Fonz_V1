@@ -68,6 +68,16 @@ h1, h2, h3, h4 {
   margin: 0;
  }
 
+/* Success Alert Start */
+.success-alert {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+/* Success Alert End */
+
 /* CartItem Button Style Start*/
 .btn-black {
   background: transparent;
@@ -111,9 +121,6 @@ h1, h2, h3, h4 {
   .letter-spacing {
     letter-spacing: 0.02px;
     margin: 0 0 0 3rem;
-  }
-  .small-padding {
-    padding: 38% 1%;
   }
 }
 

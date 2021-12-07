@@ -36,10 +36,10 @@ export default class Navbar extends Component {
                             Products
                         </Link>
                         <a className="nav-link my-auto mobile-link-margin" href="/">
-                            Pricing
+                            About
                         </a>
                         <a className="nav-link disabled my-auto mobile-link-margin" href="/">
-                            Disabled
+                            Contact
                         </a>
                     </div>
                     </div>
